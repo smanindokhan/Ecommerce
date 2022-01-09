@@ -235,7 +235,7 @@ if (isset($_POST["Common"])) {
 				
 			}
 			?>
-				<a style="float:right;" href="cart.php" class="btn btn-warning">Edit&nbsp;&nbsp;<span class="glyphicon glyphicon-edit"></span></a>
+				<a style="float:right;" href="cart.php" class="btn btn-info">Proceed to Checkout&nbsp;&nbsp;<span class="glyphicon glyphicon-edit"></span></a>
 			<?php
 			exit();
 		}

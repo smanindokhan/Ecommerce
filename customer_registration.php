@@ -67,13 +67,13 @@ if (isset($_GET["register"])) {
 						<div class="row">
 							<div class="col-md-12">
 								<label for="password">Password</label>
-								<input type="password" id="password" name="password"class="form-control" required>
+								<input type="password" id="password" name="password"class="form-control" placeholder="Password must be greater than 6 character."  required>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
 								<label for="repassword">Confirm Password</label>
-								<input type="password" id="repassword" name="repassword"class="form-control" required>
+								<input type="password" id="repassword" name="repassword"class="form-control" placeholder="Please use the exact same password as used above." required>
 							</div>
 						</div>
 						<div class="row">
