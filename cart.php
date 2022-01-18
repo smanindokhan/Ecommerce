@@ -61,8 +61,13 @@ require "config/constants.php";
 							<div class="col-md-2 col-xs-2"><b>Quantity</b></div>
 							<div class="col-md-2 col-xs-2"><b>Product Price</b></div>
 							<div class="col-md-2 col-xs-2"><b>Price in <?php echo CURRENCY; ?></b></div>
+							
 						</div>
 						<div id="cart_checkout"></div>
+						<form action=" timer.php" method='POST'>
+							<input style="float:right;margin-right:50px;" type="submit" name="submit" value='Pay Later'>
+							</form>
+									
 						<!--<div class="row">
 							<div class="col-md-2">
 								<div class="btn-group">

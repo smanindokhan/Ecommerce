@@ -22,6 +22,23 @@ if(!isset($_SESSION["uid"])){
 		</style>
 	</head>
 <body>
+    <!-- BEGIN PHP Live! Live Chat HTML Code [v3] -->
+    <span
+        style="color: #0000FF; text-decoration: underline; line-height: 0px !important; cursor: pointer; position: fixed; bottom: 0px; right: 20px; z-index: 20000000;"
+        id="phplive_btn_1642427587"></span>
+    <script data-cfasync="false" type="text/javascript">
+
+        (function () {
+            var phplive_e_1642427587 = document.createElement("script");
+            phplive_e_1642427587.type = "text/javascript";
+            phplive_e_1642427587.async = true;
+            phplive_e_1642427587.src = "https://t2.phplivesupport.com/shopperverse/js/phplive_v2.js.php?v=0%7C1642427587%7C2%7C&";
+            document.getElementById("phplive_btn_1642427587").appendChild(phplive_e_1642427587);
+            if ([].filter) { document.getElementById("phplive_btn_1642427587").addEventListener("click", function () { phplive_launch_chat_0() }); } else { document.getElementById("phplive_btn_1642427587").attachEvent("onclick", function () { phplive_launch_chat_0() }); }
+        })();
+
+    </script>
+    <!-- END PHP Live! Live Chat HTML Code [v3] -->
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">	
 			<div class="navbar-header">
