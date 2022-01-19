@@ -65,7 +65,7 @@ require "config/constants.php";
 						</div>
 						<div id="cart_checkout"></div>
 						<form action=" timer.php" method='POST'>
-							<input style="float:right;margin-right:50px;" type="submit" name="submit" value='Pay Later'>
+							<button style="float:right;margin-right:50px; type="submit" class="btn btn-primary">Pay Later</button>
 							</form>
 									
 						<!--<div class="row">
