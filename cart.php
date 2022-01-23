@@ -27,7 +27,7 @@ require "config/constants.php";
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand">Shopperverse</a>
+				<a href="index.php" class="navbar-brand">Shopperverse</a>
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
@@ -65,7 +65,7 @@ require "config/constants.php";
 						</div>
 						<div id="cart_checkout"></div>
 						<form action=" timer.php" method='POST'>
-							<button style="float:right;margin-right:50px; type="submit" class="btn btn-primary">Pay Later</button>
+							<button style="float:right;margin-right:50px;background-color:#353839; type="submit" class="btn btn-primary">Pay Later</button>
 							</form>
 									
 						<!--<div class="row">
